@@ -2,7 +2,6 @@ import torch
 import math
 from scipy.integrate import quad
 
-
 def derivative(y, t, device) : 
     return torch.autograd.grad(
         y, t, create_graph=True,

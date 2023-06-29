@@ -1,7 +1,6 @@
 import torch
 import torch.nn as nn
 
-
 class DRM(nn.Module) :
     def __init__(self, hidden_dims) :                    # Hidden_dims : [h1, h2, h3, ..., hn]
         super(DRM, self).__init__()

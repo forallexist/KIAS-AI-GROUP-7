@@ -3,6 +3,7 @@ import torch.nn as nn
 from utils.helpers import derivative
 import wandb
 
+
 def train_basic(
         model, 
         grid_data, boundary_data, 

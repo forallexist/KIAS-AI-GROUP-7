@@ -1,6 +1,8 @@
 /config
 /figure/*.gif
 /wandb
+/__pycache__
 
+*.pyc
 *.pt
 *.png
