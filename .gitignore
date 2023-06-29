@@ -1,0 +1,6 @@
+/config
+/figure/*.gif
+/wandb
+
+*.pt
+*.png
